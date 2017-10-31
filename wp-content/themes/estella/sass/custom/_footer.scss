@@ -1,0 +1,101 @@
+.estella-footer-widgets {
+	background: #ffffff;
+	width: 100%;
+	overflow: hidden;
+	.widget {
+		width: 23%;
+		margin-right: 1%;
+		float: left;
+	}
+}
+.estella-wrapper {
+	max-width: 1150px;
+	margin: 0 auto;
+}
+.estella-site-info {
+	background: #222222;
+	width: 100%;
+	text-align: center;
+	color: #868686;
+	padding: 15px 0;
+	a {
+		color: #cccccc;
+	}
+}
+.estella-footer-widgets h3 {
+	position: relative;
+	border-bottom: 2px solid #f2f2f2;
+	padding-bottom: 10px;
+	margin-top: 0;
+	&:after {
+		content: '';
+		width: 50px;
+		height: 2px;
+		background: #ff1d8e;
+		position: absolute;
+		left: 0px;
+		bottom: 0;
+		margin: -2px;
+	}
+}
+
+.estella-footer-icons {
+	overflow: hidden;
+	width: 100%;
+	background: #000000;
+	.social-media-icons {
+		padding: 10px 0;
+	}
+	& i:before {
+		color: #ffffff;
+	}
+}
+
+.estella-wrap {
+	max-width: 1150px;
+	margin: 0 auto;
+}
+
+//Media Query
+
+@media (max-width: 1000px){
+	.estella-footer-widgets .widget{
+		width: 30%;
+	}
+}
+@media (max-width: 800px){
+	.estella-footer-widgets .widget{
+		width: 49%;
+	}
+}
+@media (max-width: 500px){
+	.estella-footer-widgets .widget{
+		width: 99%;
+	}
+}
+@media (max-width: 420px){
+	.estella-site-info{
+		font-size: 14px;
+	}
+}
+
+	.site-footer{
+	.social-media-icons {
+		text-align: center;
+		ul{display:inline-block;margin-bottom: 0.5em; }
+		li{
+		list-style:none;
+		float: left;
+		a{padding:0.5em;}
+
+			}
+
+	}
+}
+@media (max-width: 390px){
+	.estella-site-info{
+		font-size: 12px;
+	}
+}
+
+

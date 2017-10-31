@@ -1,0 +1,71 @@
+//Image Size 356x309
+
+.flexslider {
+	width: 100%;
+	overflow: hidden;
+	position: relative;
+}
+.slides {
+	img {
+		height: auto;
+		width: 100%;
+	}
+}
+.estella-slider-content {
+	background: #000;
+	padding: 10px;
+	text-align: center;
+}
+.estella-slider-title, .estella-slider-description {
+	line-height: 1.2;
+	margin: 10px 0;
+}
+.estella-slider-title {
+	color: $color__theme;
+	font-size: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.estella-slider-description {
+	color: #ffffff;
+}
+
+
+.flex-direction-nav{
+	display: none;
+}
+
+@media(max-width:1000px){
+	.estella-slider-title {
+		font-size: 20px;
+		line-height: 1;
+	}
+	.estella-slider-description {
+		line-height: 1;
+			}
+	.flexslider .flex-control-nav{
+		bottom: 49px;
+	}
+
+
+}
+
+
+@media(max-width:800px){
+	.estella-slider-title {
+		font-size: 15px;
+	}
+	.estella-slider-description {
+		font-size: 13px;
+			}
+	.flexslider .flex-control-nav{
+		bottom: 37px;
+	}
+}
+
+@media(max-width:500px){
+	.flexslider .flex-control-paging li a{
+		width: 8px;
+		height: 8px;
+	}
+}

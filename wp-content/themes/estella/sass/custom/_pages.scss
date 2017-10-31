@@ -1,0 +1,40 @@
+//BREADCRUMB
+//breadcrumbs
+.breadcrumbs{
+    list-style: none;
+    background: #fff;
+    margin: 0;
+    text-align: right;
+    padding: 10px;
+}
+
+.breadcrumbs {
+	li{
+    display: inline-block;
+    padding: 5px;
+	}
+    a {
+    	color: $color__theme;
+    }
+    .separator {
+    	color: #cccccc;
+    }
+}
+.comment-author img {
+	float: left;
+	margin-right: 20px;
+	border-radius: 50%;
+}
+.comment-body .reply {
+	text-align: right;
+}
+.error404 {
+    background: #ffffff;
+    width: 100%;
+}
+.estell-404-search-container, .estell-page-header {
+    text-align: center;
+    .estella-search-box {
+        padding: 10px;
+    }
+}

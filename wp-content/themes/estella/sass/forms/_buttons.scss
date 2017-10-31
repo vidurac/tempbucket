@@ -1,0 +1,31 @@
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+	background: $color__theme;
+	color: #ffffff;
+	padding: 10px;
+	outline: 0;
+	border: 0;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	cursor: pointer;
+}
+
+button:hover,
+input[type="button"]:hover,
+input[type="reset"]:hover,
+input[type="submit"]:hover {
+	background: $color__link-hover;
+}
+
+button:focus,
+input[type="button"]:focus,
+input[type="reset"]:focus,
+input[type="submit"]:focus,
+button:active,
+input[type="button"]:active,
+input[type="reset"]:active,
+input[type="submit"]:active {
+	background: $color__link-hover;
+}

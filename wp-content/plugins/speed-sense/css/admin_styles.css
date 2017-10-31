@@ -1,0 +1,15 @@
+body {
+    background-color: #F1F1F1 !important;
+}
+
+#config-form .control-label{float:left;width:200px;text-align:left;}
+body {
+background-color: inherit;
+}
+
+input.ng-invalid-max,input.ng-invalid-min,input.ng-invalid-number,input.ng-invalid-required{border-color:#a94442;}
+#wpcontent {margin-left:160px}
+.wrap {margin:0;}
+td a {
+	cursor: pointer;
+}

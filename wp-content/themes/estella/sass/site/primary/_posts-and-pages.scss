@@ -1,0 +1,40 @@
+.head-post{
+	list-style:none;
+}
+.estella-post-comment span{
+	display: none;
+}
+.sticky {
+	display: block;
+}
+
+.hentry {
+	margin: 0 0 1.5em;
+}
+
+.byline,
+.updated:not(.published){
+	display: none;
+}
+
+.single .byline,
+.group-blog .byline {
+	display: inline;
+}
+
+.page-content,
+.entry-content,
+.entry-summary {
+	margin: 1em 0 0;
+}
+
+.page-links {
+	clear: both;
+	margin: 0 0 1.5em;
+}
+
+article .entry-footer {
+	.comments-link,.edit-link{
+		font-size: 15px;
+	}
+}

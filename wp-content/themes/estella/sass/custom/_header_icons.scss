@@ -1,0 +1,304 @@
+//HEAD CONTAINER
+.site-header .site-title a:hover{
+	color:#dd9933;
+	transition:0.5s;
+}
+.site-header .site-title a{
+	color:$color__site-title;
+}
+.site-header .site-description{
+	color:$color__site-title;
+}
+#page .estella-head-color{background : $color__background-navigation-mobile-menu;color:#fff;}
+#page .estella-display-none{display:none;}
+.estella-head-wrap{
+	max-width: 1150px;
+    margin: 0 auto;
+}
+
+//SITE LOGO
+.estella-site-logo{
+	a img{
+		max-height: 300px;
+	}
+}
+
+.head-color {
+
+	text-align: right;
+	overflow:hidden;
+	padding:0.75em 0.75em 0.75em 0.75em;
+	width:100%;
+	margin: 0 auto 0 auto;
+
+	@include sub_panel();
+	box-shadow:none;
+	border:none;
+
+
+// 1.SITE TITLE
+	.site-branding{
+		width:100%;
+		padding-bottom:4px;
+		padding-top:18px;
+		text-align: center;
+		h2{font-size:2.1em;}
+		.site-description{
+			line-height:1.2em;
+			color: $color__link-header;
+
+						}
+		//title of the website
+		.site-title{
+			text-transform: uppercase;
+			color:$color__link;
+			a{font-family:'arial';
+				letter-spacing: 2px;
+				color:$color__link-header;
+				}
+
+			}
+
+		}
+
+// 3.HEADER ICONS
+	.header-icons{
+		float: left;
+
+		a{color: $color__link;}
+		ul{
+		display: inline-block;
+		margin: 0 ;
+		padding:0;
+		vertical-align: text-top;
+
+
+
+		li{
+	   		float:left;
+			list-style:none;
+			.fa{
+
+	 	  		padding:9px 10px;
+	 	  		font-size: 1em;
+	 	  		background: $color__background-header-icons;
+	 	  		display: block;
+
+	 	  		color:$color__header-icons;
+
+	 	  	}
+			.fa-facebook{
+				padding: 9px 12px;
+			}
+			.fa-google-plus{
+				padding: 9px 9px;
+			}
+			.fa-tumblr{
+				padding: 9px 12px;
+			}
+			.fa-flickr{
+				padding: 9px 10px;
+			}
+			.fa-pinterest{
+				padding: 9px 10px;
+			}
+			.fa-youtube{
+				padding: 9px 10px;
+			}
+
+	 	  	.fa:hover {
+	 	  		color: $color__link-hover;
+	 	  		transition:0.5s;
+
+	 	  	}
+
+
+	   	}//END li
+
+	   }//END ul
+
+}//END header-icon
+
+
+}//END head-container
+
+
+@media(max-width:1250px){
+	#head-container {
+		.search-box-container{
+			width:22%;
+		}
+			}
+}
+@media(max-width:1160px){
+	#head-container {
+		.search-box-container{
+			width:20%;
+		}
+
+	}
+}
+@media(max-width:1130px){
+	#head-container{
+		.search-box-container{
+			width:20%;
+		}
+	}
+}
+@media(max-width:1100px){
+
+	#head-container{
+		.site-branding{
+		width: 30%;
+		.site-description{display:none;}
+		}
+	}
+
+	.header-icons{
+
+		ul li {
+				span{
+				margin-right: 0.75em;
+					}
+				.search-box{
+				width:300px;
+							}
+				.search-icon{
+					margin-right: 200px;
+							}
+			}
+
+					}//.header-icons
+}
+
+//When the site width is less than 1000px
+@media(max-width:1000px){
+		.site-title{line-height:1.75;}
+		.estella-site-logo a img {
+			max-height: 100px;
+			}
+
+		#masthead{
+			margin-top: -5px;
+		}
+
+
+}
+@media(max-width:800px){
+	.estella-site-logo a img {
+			max-height: 80px;
+			}
+		}
+
+@media(max-width:650px){
+	.site-header .head-color{
+	    padding: 0.75em 0.5em 0.25em 0.5em;
+	}
+
+	.estella-site-logo a img {
+			max-height: 70px;
+			}
+
+	#head-container{
+			min-height:30px;
+			// margin-top: 14px;
+			.estella-navicon .navicon{
+				margin-top: -2px;
+			}
+			.header-icons-link{
+				display:none;
+
+			}
+
+			.site-branding{
+				width:55%;
+
+			}
+			.site-title-description{
+				margin-top: 1px;
+			}
+			.search-box-container{
+				width:33%;
+				text-align: right;
+				.search-box{
+					input,select,textarea{line-height:1;font-size:15px;}
+					}
+				}
+		}
+
+	}//END @media(max-width:650px)
+@media(max-width:600px){
+
+			.site-title{font-size: 3rem;line-height:1.5;}
+			.site-description{font-size: 1.5rem;}
+
+
+		.estella-site-logo a img {
+			max-height: 65px;
+			}
+
+	.main-navigation .navicon{
+		font-size: 1.2em;
+	}
+
+}
+
+@media(max-width:450px){
+
+	.site-header .head-color{
+	    padding: 1em 0.5em 0.25em 0.5em;
+	}
+	.site-title{font-size: 2.8rem;}
+	.site-description{font-size: 1.5rem;}
+
+	.estella-site-logo a img {
+			max-height: 50px;
+			}
+
+	#head-container{
+
+			.estella-navicon .navicon{
+				margin-top: -2px;
+				margin-left:22px;
+								}
+
+			.search-box-container{
+				width:32%;
+							}
+					}
+	.main-navigation .navicon{
+				font-size: 2.0rem;
+				}
+
+
+	}//END @media(max-width:450px)
+
+
+@media(max-width:400px){
+
+		.site-title{font-size: 2.7rem;}
+		.site-description{font-size: 1.4rem;}
+
+	#head-container{
+
+			margin-top:-9px;
+			.estella-navicon .navicon{
+				margin-top: -2px;
+				margin-left:20px;
+								}
+
+			.search-box-container{
+				width:30%;
+							}
+			.share-button{
+				font-size: 16px;
+			}
+		}
+
+		.main-navigation .navicon{
+				font-size: 1.8rem;
+				}
+
+
+	}//END @media(max-width:450px)
+
